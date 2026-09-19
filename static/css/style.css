@@ -216,6 +216,7 @@
 
   .col-price {
     text-align: center;
+    white-space: nowrap;
     font-weight: 900;
     font-size: 1.05rem;
     color: var(--price-color);
@@ -223,6 +224,7 @@
 
   .col-real {
     text-align: center;
+    white-space: nowrap;
     font-size: 1.05rem;
     font-weight: 600;
     color: var(--real-color);
