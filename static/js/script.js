@@ -61,5 +61,6 @@ const input    = document.getElementById('searchInput');
       tab.classList.add('active');
       activeTab = tab.dataset.cat;
       render();
+      window.scrollTo({ top: 0, behavior: 'auto' });
     });
   });
